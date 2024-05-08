@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Application Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            background-image: url('https://d2m6ke2px6quvq.cloudfront.net/uploads/2020/07/14/83f1e2fa-313f-47af-a6a6-71973b61e1c3.jpg');
+            backdrop-filter: blur(1px);
+        justify-content: center;
+        align-items: center;   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        .container {
+            max-width: 500px;
+            margin: 100px auto;
+            
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        input[type="text"],
+        input[type="password"],
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid ;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+           
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Create Your Bank Account</h2>
+           <H4> ACCOUNT NUMBER</H4>
+            <input type="NUMBER" name="AC.NO" placeholder="11 DIGITS" required><BR>
+           <H4> IFSC CODE </H4>
+            <input type=" number text" name="IFSC" placeholder="DIBI3452" required> <BR></BR>
+
+
+            <h4>Name</h3>
+            <input type="text" name="Name" placeholder="Full Name" required>
+            <H4>USERNAME</H4>
+            <input type="text" name="username" placeholder="ENTER YOUR USERNAME" required>
+            <H4>PASSWORD</H4>
+            <input type="password" name="password" placeholder="Password" required>
+            <H4>CONFIRM PASSWORD</H4>
+            <input type="password" name="password" placeholder="Confirm Password" required>
+            <H4>PASSWORD</H4>
+            <input type="password" name="password" placeholder="Password" required>
+            <H4>BRANCH CODE</H4>
+            <input type="number" name="NUMBER" placeholder="00000" required>
+
+            <H4>EMAIL</H4>
+            <input type="text" name="email" placeholder="ABC@GMAIL.COM" required>
+            <h4>MOBILE.NO</h4>
+            <input type="text" name="phone" placeholder="Phone Number" required><br><br>
+            <H4>DATE OF BIRTH</H4>
+            <input type="date" name="date" placeholder="DOB" required><br><br>
+
+            <input type="submit" value="Register">
+            
+        </form>
+    </div>
+</body>
+</html>
